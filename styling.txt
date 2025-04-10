@@ -1,0 +1,91 @@
+background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+#Projects {
+  background-color: white;
+  width: 98%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Projects > h1 {
+  font-size: 37px;
+  color: #6a11cb;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for responsiveness */
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px; /* Consistent spacing between blocks */
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #2575fc, #6a11cb); /* Gradient for style */
+  width: 320px;
+  height: 290px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Card shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.block:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.block > h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.block > img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: white; /* White background for contrast */
+  color: #2575fc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center; /* Centers text in link */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2575fc; /* Hover effect */
+  color: white;
+}
+footer{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 17px;
+  color: #2575fc;
+}
+<footer>
+    <p>&copy; 2025 Divy Arora. All rights reserved.</p>
+</footer>
+https://main--eduverzs.netlify.app/
+https://github.com/Divyarora0906/eduVerse_Frontend
